@@ -1,0 +1,95 @@
+/* body{
+    background-image: url('../images/coto.jpg');
+    background-size: cover;
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+} */
+header{
+    display: flex;
+    /* Es olbigatorio */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;/* es la line de la division del menu*/
+    background-color: #eee;
+}
+header *{
+    display: inline;
+}
+
+header ul{/*just the list on my header*/
+    padding: 0;
+
+}
+
+header li{/*just the list on my header*/
+    margin-left: 20px;
+
+}
+li>a:hover{
+    background-color: lightcoral;
+    font-size: 20px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px blue;
+    
+    
+}
+header a{/*Remove the color blue and underline*/
+    text-decoration: none;
+    color: black;
+}
+section{
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.profile-img{
+    width: 100px;
+    border: 50%;
+}
+#home .profile-img{
+    width: 300px;
+    border: 50%;
+}
+#home h1{
+    font-size: 3em;
+}
+section ul li{
+    text-align: left;
+}
+section h2{
+    font-size: 2.5em;
+}
+section h3{
+    font-size: 1.5em;
+}
+footer{
+text-align: center;
+font-size: 10px;
+line-height: 50px;
+background-color: rgba(241, , blue, alpha);
+color:black;
+}
+#home{
+    background-image: url('../images/coto.jpg'),radial-gradient(rgba(48,15,156,0),rgba(151,125,125,0.768));
+}
+#about{
+    background-image: url('../images/coto.jpg');
+}
+#contact{
+    background-image: url('../images/grito.jpg');
+}
+h4 a{
+    text-decoration: none;
+    color:red;
+}
